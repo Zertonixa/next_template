@@ -8,6 +8,7 @@
     "start": "next start",
     "lint": "eslint . --ext .ts,.tsx,.js,.jsx",
     "lint:fix": "eslint . --ext .ts,.tsx,.js,.jsx --fix",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
     "format": "prettier . --check",
     "format:fix": "prettier . --write",
     "commit": "cz",
